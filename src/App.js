@@ -11,11 +11,11 @@ function App() {
       <div className="App">
         {showEmployees ? (
           <>
-          <Employee />
-          <Employee />
-          <Employee />
-          <Employee />
-          <Employee />
+          <Employee name="Aaron" role="Intern"/>
+          <Employee name="Bethany"/>
+          <Employee name="Cameron"/>
+          <Employee name="Daron"/>
+          <Employee name="Ella"/>
           </>
         ) : (
           <p>Not allowed</p>
