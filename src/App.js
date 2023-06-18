@@ -3,7 +3,6 @@ import Employee from './components/Employee';
 import Counter from './components/Counter'
 import Form from './components/Form'
 import Navbar from './components/Navigation';
-import Navbar from './components/Navigation';
 import React, { useState } from 'react';
 
 function App() {
