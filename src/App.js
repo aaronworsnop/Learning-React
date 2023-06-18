@@ -2,6 +2,7 @@ import './App.css';
 import Employee from './components/Employee';
 import Counter from './components/Counter'
 import Form from './components/Form'
+import Navbar from './components/Navigation';
 import React, { useState } from 'react';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <div className="App">
         {showEmployees ? (
           <>
+          <Navbar />
           <input type="test" onChange={(e) => {
             setRole(e.target.value);
           }}></input>
