@@ -2,6 +2,7 @@ import './App.css';
 import Employee from './components/Employee';
 import Counter from './components/Counter'
 import Form from './components/Form'
+import Navbar from './components/Navigation';
 import React, { useState } from 'react';
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
       <div className="App">
         {showEmployees ? (
           <>
-          <input type="test" onChange={(e) => {
+          <Navbar />
+          <label htmlFor="bethany-role">Bethany's Role:</label>
+          <input id="bethany-role" type="test" onChange={(e) => {
             setRole(e.target.value);
           }}></input>
           <Employee name="Aaron" role="Intern"/>
